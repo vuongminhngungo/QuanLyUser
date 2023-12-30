@@ -112,3 +112,59 @@ td {
   color: #f0f4f6;
   background-color: #5a9dca;
 }
+/* Large Desktop */
+@media only screen and (min-width: 1200px) {
+}
+
+/* Desktop/Tablet */
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  .border-table {
+    padding: 30px 50px;
+  }
+
+  #addUserModal {
+    width: 60%;
+  }
+}
+
+/* Mobile */
+@media only screen and (max-width: 767px) {
+  .list-nav {
+    flex-direction: column;
+  }
+
+  .border-table {
+    padding: 20px;
+  }
+
+  #addUserModal {
+    width: 80%;
+  }
+
+  #userTable th {
+    font-size: 14px;
+  }
+
+  #userTable td {
+    font-size: 12px;
+  }
+}
+
+/* Extra Small Devices  */
+@media only screen and (max-width: 480px) {
+  .border-table {
+    padding: 10px;
+  }
+
+  #addUserModal {
+    width: 90%;
+  }
+
+  #userTable th {
+    font-size: 12px;
+  }
+
+  #userTable td {
+    font-size: 10px;
+  }
+}
