@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+#addUserModal {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+#addUserModal label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+#addUserModal input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+}
+
+#addUserModal button {
+  padding: 10px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+#userTable .delete-user {
+  font-size: 12px;
+  background: 0;
+  outline: 0;
+  border: 0;
+  padding: 4px;
+  background: #f0f4f6;
+  cursor: pointer;
+}
+#userTable .delete-user:hover {
+  opacity: 0.8;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table,
+th,
+td {
+  border: 1px solid #ddd;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: center;
+}
+.heading {
+  color: #f0f4f6;
+  background-color: #5a9dca;
+}
+.list-nav {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #fccffb;
+  color: #09074f;
+  font-size: 22px;
+}
+.border-table {
+  padding: 40px 100px;
+  border: 1px solid #000;
+}
+.table-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 28px;
+  background-color: #5a9dca;
+}
+.table-top h2 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #f0f4f6;
+}
+.table-top .add-btn {
+  font-size: 18px;
+  background: 0;
+  outline: 0;
+  border: 0;
+  padding: 8px;
+  background: white;
+  cursor: pointer;
+}
+.table-top .add-btn:hover {
+  opacity: 0.8;
+}
+#userTable th {
+  color: #f0f4f6;
+  background-color: #5a9dca;
+}
